@@ -1,0 +1,65 @@
+.mobile {
+    background-color: #e0e8ff;
+  
+    &__body {
+      display: flex;
+      align-items: center;
+    }
+  
+    &__left {
+      &__top {
+        display: flex;
+        justify-content: space-between;
+        width: 252.38px;
+        margin-bottom: 8px;
+  
+        .logo2 {
+          width: 75.91px;
+          height: 26px;
+        }
+  
+        h4 {
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 17.1121px;
+          line-height: 26px;
+  
+          color: #5c596d;
+        }
+      }
+  
+      h2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 56px;
+        margin-bottom: 24px;
+        color: #1d1a2f;
+        width: 513px;
+      }
+    }
+  
+    &__download {
+      width: 319.94px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    &__right {
+      display: flex;
+      align-items: center;
+  
+     
+  
+      p {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #5c596d;
+      }
+    }
+  }
+  

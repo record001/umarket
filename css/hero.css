@@ -1,0 +1,15 @@
+.hero__body {
+  padding: 32px 0;
+  position: relative;
+}
+
+.hero__body .splide__arrow {
+  display: none;
+}
+
+.hero__dots {
+  position: absolute;
+  bottom: 14%;
+  left: 50%;
+}
+/*# sourceMappingURL=hero.css.map */

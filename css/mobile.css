@@ -1,0 +1,78 @@
+.mobile {
+  background-color: #e0e8ff;
+}
+
+.mobile__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mobile__left__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 252.38px;
+  margin-bottom: 8px;
+}
+
+.mobile__left__top .logo2 {
+  width: 75.91px;
+  height: 26px;
+}
+
+.mobile__left__top h4 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.1121px;
+  line-height: 26px;
+  color: #5c596d;
+}
+
+.mobile__left h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  margin-bottom: 24px;
+  color: #1d1a2f;
+  width: 513px;
+}
+
+.mobile__download {
+  width: 319.94px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mobile__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mobile__right p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #5c596d;
+}
+/*# sourceMappingURL=mobile.css.map */

@@ -1,0 +1,142 @@
+.soldCard__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.soldCard__wrapper .soldCard {
+  width: 300px;
+  height: 448px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.soldCard__wrapper .soldCard__star {
+  width: 129px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.soldCard__wrapper .soldCard__star:hover {
+  cursor: pointer;
+}
+
+.soldCard__wrapper .soldCard p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 16px;
+  margin-top: 12px;
+  color: #5c596d;
+}
+
+.soldCard__wrapper .soldCard h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1d1a2f;
+}
+
+.soldCard__wrapper .soldCard__act {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.soldCard__wrapper .soldCard__act .heart:hover {
+  cursor: pointer;
+}
+
+.soldCard__wrapper .soldCard__act img {
+  margin-left: 20px;
+}
+
+.soldCard__wrapper .soldCard__act button {
+  margin-right: 40px;
+}
+
+.soldCard__wrapper .soldCard__act button:hover {
+  cursor: pointer;
+}
+
+.soldCard__wrapper .soldCard__act button img {
+  margin: 0;
+}
+
+.soldCard__wrapper .soldCard__act .btn1 {
+  border: none;
+  width: 131px;
+  height: 40px;
+  background-color: #1b5bf7;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 11px 16px;
+  color: #ffffff;
+}
+
+.soldCard__wrapper .soldCard__act .btn2 {
+  width: 131px;
+  height: 40px;
+  border: none;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5c596d;
+}
+
+.soldCard__wrapper .soldCard__act .btn2:hover {
+  background-color: #e0e8ff;
+  color: #1b5bf7;
+}
+
+.sold {
+  padding: 32px 0 64px;
+}
+
+.sold h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 24px;
+  color: #5c596d;
+}
+/*# sourceMappingURL=sold.css.map */

@@ -1,0 +1,39 @@
+.favCard {
+    width: 300px;
+    height: 232px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    &:hover {
+      cursor: pointer;
+    }
+    h4 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      color: #5C596D;
+    }
+  }
+  .favorite {
+    padding: 32px 0 64px;
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+     margin-bottom: 24px;
+      color: #5c596d;
+    }
+  
+    &__wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  

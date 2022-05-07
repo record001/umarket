@@ -1,0 +1,17 @@
+.hero {
+    &__body {
+        padding: 32px 0;
+        position: relative;
+        
+
+       .splide__arrow {
+           display: none;
+       }
+    }
+
+    &__dots {
+        position: absolute;
+        bottom: 14%;
+        left: 50%;
+    }
+}
